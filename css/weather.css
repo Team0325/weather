@@ -1,0 +1,243 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url('../imges/kb1.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+.bigbox {
+    overflow-y: auto;
+    /* overflow: hidden; */
+    height: 100%;
+}
+
+.header {
+    /* height: .8rem; */
+    /* background-color:black; */
+    position: sticky;
+    top: 0;
+    z-index: 6;
+}
+
+.header-top {
+    height: 24px;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.header-nav {
+    height: .6rem;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 0 .15rem;
+}
+
+.header-nav-left {
+    width: 1.3rem;
+    height: .3rem;
+    margin-top: .15rem;
+    /* background-color:lightcoral; */
+}
+
+.header-nav-left-logo {
+    width: .3rem;
+    height: .3rem;
+    background: url('../imges/location.png')no-repeat center center;
+    background-size: .3rem .3rem;
+}
+
+.header-nav-left-text {
+    width: .9rem;
+    height: .3rem;
+    line-height: .3rem;
+    color: white;
+    /* background-color: lightblue; */
+}
+
+.header-nav-right {
+    width: 2rem;
+    height: .3rem;
+    margin-top: .15rem;
+    /* background-color: blueviolet; */
+}
+
+.header-nav-right-inp {
+    width: 1.6rem;
+    height: .3rem;
+    border: 1px solid white;
+    /* padding: 0 5px; */
+    padding-left: 5px;
+    font-size: .18rem;
+    color: white;
+    background-color: transparent;
+    letter-spacing: 1px;
+
+}
+
+.header-nav-righ-search {
+    width: .3rem;
+    height: .3rem;
+    background:url('../imges/search.png')no-repeat center center;
+    background-size: .3rem .3rem;
+}
+
+.box {
+    overflow-y: auto;
+    padding: 0 .15rem;
+    height: calc(100% - 24px - .6rem);
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+.box-weather {
+    width: 3.45rem;
+    height: 3rem;
+    margin-top: .15rem;
+    /* background-color: red; */
+}
+
+.box-weather-left {
+    width: 2.2rem;
+    height: 3rem;
+    /* background-color: blue; */
+}
+
+.wendu {
+    width: 2.2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: .4rem;
+    color: white;
+}
+
+.day {
+    height: .5rem;
+    text-align: center;
+    line-height: .5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.box-weather-left-footer {
+    height: .5rem;
+    /* background-color: yellow; */
+}
+
+.icon {
+    width: .3rem;
+    height: .3rem;
+    /* margin-top: .1rem; */
+    /* margin-right: .4rem; */
+    margin: .1rem auto;
+    background:url('../imges/weather_qing.png')no-repeat center center;
+    background-size: .3rem .3rem;
+}
+
+.box-weather-right {
+    width: 1.2rem;
+    height: 3rem;
+    /* background-color: lightcoral; */
+}
+
+.box-weather-right>span {
+    display: block;
+    height: .75rem;
+    color: white;
+    text-align: center;
+    line-height: .8rem;
+}
+
+.box-hours {
+    margin-top: .3rem;
+    /* overflow-x: auto; */
+    /* overflow: hidden; */
+}
+
+.title {
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    color: white;
+}
+
+.ul {
+    overflow-x: auto;
+}
+
+.hours {
+    width: 2000px;
+    margin-top: .2rem;
+    overflow-x: auto;
+}
+
+.hours>li {
+    float: left;
+    width: .8rem;
+    height: 1rem;
+    /* background-color: red; */
+}
+
+.hours>li .li-wendu {
+    height: .4rem;
+    /* background-color: blue; */
+    text-align: center;
+    line-height: .4rem;
+    font-size: .2rem;
+    color: white;
+}
+
+.hours>li .li-day {
+    height: .3rem;
+    line-height: .3rem;
+    color: white;
+    text-align: center;
+}
+
+.li-icon {
+    width: .3rem;
+    height: .3rem;
+    background:url('../imges/weather_xiaoyu.png');
+    background-size: .3rem .3rem;
+    margin: 0 auto;
+}
+
+.box-sever {
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: .3rem;
+    /* height: .3rem;
+    background-color: red; */
+}
+
+.box-sever>li {
+    height: .6rem;
+    /* background-color: red; */
+}
+
+.box-sever>li .day {
+    width: 1rem;
+    height: .6rem;
+    text-align: center;
+    line-height: .6rem;
+    /* background-color: brown; */
+}
+
+.day-icon {
+    width: .3rem;
+    height: .3rem;
+    margin-top: .15rem;
+    margin-left: .4rem;
+    /* color: white; */
+    background:url('../imges/weather_yin.png')no-repeat center center;
+    background-size: .3rem .3rem;
+}
+
+.day-status {
+    width: 1rem;
+    height: .6rem;
+    text-align: center;
+    line-height: .6rem;
+    color: white;
+}
